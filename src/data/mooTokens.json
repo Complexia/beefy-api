@@ -1,7 +1,7 @@
 [
   {
     "name": "mooFantomBIFI",
-    "address": "0xbF07093ccd6adFC3dEB259C557b61E94c1F66945",
+    "address": "0x8111BD4455Ad110a8e40Bd22406D2f428A49b894",
     "decimals": "1e18",
     "chainId": 250,
     "oracle": "tokens",

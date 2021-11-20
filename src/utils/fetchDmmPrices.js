@@ -33,7 +33,7 @@ const calcLpPrice = (pool, tokenPrices) => {
   return lp0.plus(lp1).multipliedBy(pool.decimals).dividedBy(pool.totalSupply).toNumber();
 };
 
-const fetchDmmPrices = async (pools, knownPrices) => {
+export const fetchDmmPrices = async (pools, knownPrices) => {
   let prices = { ...knownPrices };
   let lps = {};
   let weights = {};
